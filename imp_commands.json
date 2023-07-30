@@ -1,0 +1,13 @@
+dotnet new sln -o BuberDinner
+dotnet new webapi -o BuberDinner.Api
+dotnet new classlib -o BuberDinner.Application
+ls
+more .\BuberDinner.sln (gives more information about the file)
+dotnet sln add (ls -r **\*.csproj) (add projects to sln)
+dotnet add .\BuberDinner.Api\ reference .\BuberDinner.Contracts\ .\BuberDinner.Application\ (Add projects Reference)
+dotnet run --project .\BuberDinner.api\ (run specific project)
+dotnet new gitignore
+
+
+<Nullable>enable</Nullable>
+
