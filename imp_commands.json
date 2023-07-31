@@ -7,7 +7,8 @@ dotnet sln add (ls -r **\*.csproj) (add projects to sln)
 dotnet add .\BuberDinner.Api\ reference .\BuberDinner.Contracts\ .\BuberDinner.Application\ (Add projects Reference)
 dotnet run --project .\BuberDinner.api\ (run specific project)
 dotnet new gitignore
-
+dotnet user-secrets init  (to generate user secrets)
+dotnet user-secrets set "JwtSettings:Secret" "super-secret-key-from-user-secrets"
 
 <Nullable>enable</Nullable>
 
