@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BuberDinner.Infrastructure.Autentication
+namespace BuberDinner.Infrastructure.Authentication
 {
 	public class JwtSettings
 	{
