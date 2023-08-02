@@ -1,4 +1,5 @@
 
+using BuberDinner.Api.Filters;
 using BuberDinner.Application.Services.Authentication;
 using BuberDinner.Contracts.Authentication;
 using Microsoft.AspNetCore.Mvc;
@@ -7,6 +8,7 @@ namespace BuberDinner.Api.Controllers;
 
 [ApiController]
 [Route("auth")]
+//[ErrorHandlingFilter]
 public class AuthenticationController : ControllerBase
 {
     private readonly IAuthenticationService _authenticationService;

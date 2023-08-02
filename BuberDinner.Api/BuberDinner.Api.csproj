@@ -5,6 +5,10 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <UserSecretsId>0d6539d1-b6bd-4ba0-a8fc-f007da8682b8</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
   
   <ItemGroup>
     <ProjectReference Include="..\BuberDinner.Contracts\BuberDinner.Contracts.csproj" />
